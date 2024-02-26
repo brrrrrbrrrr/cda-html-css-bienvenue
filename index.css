@@ -49,7 +49,7 @@
 }
 .avatar {
   width: 20rem;
-  border: 2px solid white;
+  border: 3px solid white;
   border-radius: 50%;
 }
 
@@ -103,6 +103,32 @@
   color: white;
   font-weight: bold;
 }
+
+/* ABOUT */
+.about-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-column {
+  width: 30%;
+}
+
+.about-articlep_p-1 {
+  margin: 10px;
+}
+
+.about-articlep_p-2 {
+  margin: 10px;
+}
+
+.about-h2 {
+  text-align: center;
+  color: var(--primary-color);
+  font-size: 3rem;
+}
+
 /* RESPONSIVE */
 
 @media screen and (max-width: 992px) {
@@ -142,6 +168,13 @@
   }
 
   .articles-h2 {
+    font-size: 5vw;
+  }
+
+  .about-column {
+    width: 70%;
+  }
+  .about-h2 {
     font-size: 5vw;
   }
 }
