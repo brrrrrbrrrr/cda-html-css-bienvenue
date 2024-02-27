@@ -4,6 +4,12 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: 'Source Sans 3', sans-serif;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -61,7 +67,7 @@
 
 .articles-h2 {
   text-align: center;
-  margin: 15px 0;
+  margin: 50px 0;
   font-size: 3rem;
   color: var(--primary-color);
 }
@@ -127,8 +133,28 @@
   text-align: center;
   color: var(--primary-color);
   font-size: 3rem;
+  margin: 50px 0;
 }
 
+/* FOOTER */
+
+footer {
+  margin-top: 50px;
+}
+
+.footer-container {
+  text-align: center;
+  background-color: var(--secondart-color);
+  padding: 20px 0;
+}
+
+.heart-span {
+  color: red;
+}
+
+.freepicks-span {
+  color: var(--primary-color);
+}
 /* RESPONSIVE */
 
 @media screen and (max-width: 992px) {
